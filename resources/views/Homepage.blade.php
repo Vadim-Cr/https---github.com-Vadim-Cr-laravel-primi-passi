@@ -8,7 +8,7 @@
 <body>
     
 <h1>
-    Hello World!
+    Hello World from {{$name}}!
 </h1>
 
 </body>

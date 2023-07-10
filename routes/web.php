@@ -14,7 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/homepage', function () {
-    return view('Homepage');
+    // $data = [
+    //     'name' => 'Fabio'
+    // ];
+    $name = 'Tizio';
+
+    // dd($name);
+    return view('Homepage', compact('name'));
 });
 Route::get('/chi-siamo', function () {
     return view('chi-siamo');
